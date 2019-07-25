@@ -15,4 +15,8 @@ attr_accessor :name
 def self.clear_all
   @@all.clear
 end
+def self.print_all
+  @@all.each do |a|
+    puts a
+end 
 end

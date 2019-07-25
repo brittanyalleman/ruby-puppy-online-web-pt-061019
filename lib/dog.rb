@@ -18,5 +18,6 @@ end
 def self.print_all
   @@all.each do |a|
     puts a
-end 
 end
+end
+end 
